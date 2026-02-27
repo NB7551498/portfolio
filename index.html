@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Nikhil — Generative AI Developer specializing in LLMs, voice assistants, and deep learning. View my portfolio." />
+  <title>Nikhil | Generative AI Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <script type="module" crossorigin src="/portfolio/assets/index-DpW1oKR7.js"></script>
+  <link rel="stylesheet" crossorigin href="/portfolio/assets/index-D8zWhrEO.css">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">N<span>.</span></div>
+      <div class="preloader-bar">
+        <div class="preloader-bar-fill"></div>
+      </div>
+      <p class="preloader-text">Initializing Neural Network...</p>
+    </div>
+  </div>
+
+  <!-- Cursor Glow -->
+  <div id="cursor-glow" class="cursor-glow"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Three.js Canvas -->
+  <canvas id="three-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <a href="#hero" class="nav-logo">N<span class="accent">.</span></a>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero-section">
+    <div class="hero-content">
+      <p class="hero-greeting stagger-item">Hello, I'm</p>
+      <h1 class="hero-name stagger-item">Nikhil</h1>
+      <p class="hero-title stagger-item">
+        <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc stagger-item">I build intelligent AI systems — from voice assistants to language models —
+        pushing the
+        boundaries of Generative AI.</p>
+      <div class="hero-buttons stagger-item">
+        <a href="#projects" class="btn btn-primary"><span class="btn-icon">⚡</span> View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="scroll-indicator stagger-item">
+        <div class="scroll-mouse">
+          <div class="scroll-dot"></div>
+        </div>
+        <span>Scroll Down</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">01.</span> About Me
+      </h2>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="image-wrapper">
+            <div class="image-border"></div>
+            <img src="./profile.webp" alt="Profile photo" id="profile-img" />
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>
+            I'm a passionate <strong>Generative AI Developer</strong> focused on building
+            intelligent systems that understand and generate human language. From voice
+            assistants to large language models, I love pushing the limits of AI.
+          </p>
+          <p>
+            I specialize in LLMs, NLP, deep learning, and building end-to-end AI
+            applications. When I'm not training models, you'll find me exploring
+            cutting-edge research papers and contributing to open-source AI projects.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="15">0</span>+
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="3">0</span>+
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">0</span>+
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">02.</span> Skills & Expertise
+      </h2>
+      <p class="section-subtitle reveal">Technologies and frameworks I work with daily</p>
+      <div class="skills-grid">
+        <div class="skill-card reveal" data-delay="0">
+          <div class="skill-header">
+            <div class="skill-icon-wrap gradient-1">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93" />
+                <path d="M8 6a4 4 0 0 1 8 0" />
+                <path d="M12 18v4" />
+                <path d="M8 22h8" />
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 2v4" />
+                <path d="m4.93 4.93 2.83 2.83" />
+                <path d="m16.24 16.24 2.83 2.83" />
+                <path d="M2 12h4" />
+                <path d="M18 12h4" />
+                <path d="m4.93 19.07 2.83-2.83" />
+                <path d="m16.24 7.76 2.83-2.83" />
+              </svg>
+            </div>
+            <div class="skill-ring" data-percent="95">
+              <svg viewBox="0 0 60 60">
+                <circle class="ring-bg" cx="30" cy="30" r="26" />
+                <circle class="ring-fill" cx="30" cy="30" r="26" stroke-dasharray="163.36" stroke-dashoffset="163.36" />
+              </svg>
+              <span class="ring-label">95%</span>
+            </div>
+          </div>
+          <h3>Generative AI</h3>
+          <p>Building LLM-powered apps, prompt engineering, fine-tuning, and deploying AI models at scale.</p>
+          <div class="skill-tags">
+            <span class="tag">LangChain</span>
+            <span class="tag">OpenAI API</span>
+            <span class="tag">Hugging Face</span>
+            <span class="tag">RAG</span>
+            <span class="tag">LLaMA</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="100">
+          <div class="skill-header">
+            <div class="skill-icon-wrap gradient-2">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z" />
+                <path
+                  d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z" />
+              </svg>
+            </div>
+            <div class="skill-ring" data-percent="90">
+              <svg viewBox="0 0 60 60">
+                <circle class="ring-bg" cx="30" cy="30" r="26" />
+                <circle class="ring-fill" cx="30" cy="30" r="26" stroke-dasharray="163.36" stroke-dashoffset="163.36" />
+              </svg>
+              <span class="ring-label">90%</span>
+            </div>
+          </div>
+          <h3>Deep Learning & NLP</h3>
+          <p>Training neural networks, transformer architectures, and building natural language systems.</p>
+          <div class="skill-tags">
+            <span class="tag">PyTorch</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">BERT/GPT</span>
+            <span class="tag">CUDA</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="200">
+          <div class="skill-header">
+            <div class="skill-icon-wrap gradient-3">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+                <line x1="12" y1="2" x2="12" y2="22" />
+              </svg>
+            </div>
+            <div class="skill-ring" data-percent="85">
+              <svg viewBox="0 0 60 60">
+                <circle class="ring-bg" cx="30" cy="30" r="26" />
+                <circle class="ring-fill" cx="30" cy="30" r="26" stroke-dasharray="163.36" stroke-dashoffset="163.36" />
+              </svg>
+              <span class="ring-label">85%</span>
+            </div>
+          </div>
+          <h3>Python & Backend</h3>
+          <p>Building robust APIs, ML pipelines, and production-ready AI application backends.</p>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">Flask</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+        <div class="skill-card reveal" data-delay="300">
+          <div class="skill-header">
+            <div class="skill-icon-wrap gradient-4">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z" />
+                <path d="M19 10v2a7 7 0 0 1-14 0v-2" />
+                <line x1="12" y1="19" x2="12" y2="22" />
+              </svg>
+            </div>
+            <div class="skill-ring" data-percent="80">
+              <svg viewBox="0 0 60 60">
+                <circle class="ring-bg" cx="30" cy="30" r="26" />
+                <circle class="ring-fill" cx="30" cy="30" r="26" stroke-dasharray="163.36" stroke-dashoffset="163.36" />
+              </svg>
+              <span class="ring-label">80%</span>
+            </div>
+          </div>
+          <h3>Voice & Speech AI</h3>
+          <p>Building voice assistants with real-time speech recognition and natural voice synthesis.</p>
+          <div class="skill-tags">
+            <span class="tag">Whisper</span>
+            <span class="tag">TTS</span>
+            <span class="tag">ElevenLabs</span>
+            <span class="tag">Speech-to-Text</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">03.</span> Featured Projects
+      </h2>
+      <div class="projects-grid">
+        <div class="project-card reveal" data-delay="0">
+          <div class="project-image">
+            <img src="./project1.webp" alt="Alpha Voice Assistant" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/NB7551498/ALPHA" target="_blank" class="project-link"
+                  title="View Live">🔗</a>
+                <a href="https://github.com/NB7551498/ALPHA" target="_blank" class="project-link"
+                  title="Source Code">💻</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Alpha — AI Voice Assistant</h3>
+            <p>An intelligent voice assistant powered by LLMs with natural speech recognition, contextual conversations,
+              and real-time voice synthesis.</p>
+            <div class="project-tech">
+              <span>Python</span><span>Gemini</span><span>Whisper</span><span>TTS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-delay="100">
+          <div class="project-image">
+            <img src="./project2.webp" alt="GPT-2 Language Model" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="View Live">🔗</a>
+                <a href="#" class="project-link" title="Source Code">💻</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>GPT-2 from Scratch</h3>
+            <p>Built and trained a GPT-2 language model from scratch, implementing the transformer architecture with
+              custom tokenizer and training pipeline.</p>
+            <div class="project-tech">
+              <span>PyTorch</span><span>Transformers</span><span>CUDA</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-delay="200">
+          <div class="project-image">
+            <img src="./project3.webp" alt="ANN Churn Prediction" />
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/NB7551498/ANN-PROJECT" target="_blank" class="project-link"
+                  title="View Live">🔗</a>
+                <a href="https://github.com/NB7551498/ANN-PROJECT" target="_blank" class="project-link"
+                  title="Source Code">💻</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>ANN Churn Predictor</h3>
+            <p>A deep learning pipeline that predicts customer churn — from data preprocessing to deployment with an
+              interactive Streamlit web app.</p>
+            <div class="project-tech">
+              <span>TensorFlow</span><span>Streamlit</span><span>Pandas</span><span>Scikit-learn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title reveal">
+        <span class="title-number">04.</span> Get In Touch
+      </h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-desc">
+            I'm currently open to new opportunities and collaborations.
+            Whether you have a project in mind or just want to say hello,
+            feel free to reach out!
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>nb7551498@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>India</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/NB7551498" target="_blank" class="social-link" title="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+              </svg>
+            </a>
+            <a href="#" class="social-link" title="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form reveal">
+          <div class="form-group">
+            <input type="text" id="name" name="name" required placeholder=" " />
+            <label for="name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" required placeholder=" " />
+            <label for="email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading">Sending...</span>
+          </button>
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo">N<span class="accent">.</span></a>
+        <p class="footer-tagline">Crafting the future with Generative AI</p>
+        <div class="footer-divider"></div>
+        <p class="footer-copy">&copy; 2026 Nikhil. Built with passion & Three.js</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
